@@ -9,7 +9,7 @@ void setup() {
 
 
 void loop() {
-  Wire.beginTransmission(8); // transmit to peripheral device
+  Wire.beginTransmission(2); // transmit to peripheral device
   Wire.write("x is ");        // sends five bytes
   Wire.write(x);              // sends a byte
   Wire.endTransmission();    // ends our message
